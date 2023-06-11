@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: #e2ede8;
+    
+    margin-left: 70px;
+    margin-right: auto;
+    position: static;
+    padding: 0;
+    width: 100vw;
+    
+}
+a{
+    padding: 10px;
+    color: #494f4e;
+    margin-left: 5px;
+    margin-top: 0p;
+    margin-right: 50px;
+    text-decoration: solid 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+a:hover{
+    background-color: #c7d9d5;
+}
+#logo{
+    display: flexbox;
+    width: 70px;
+    height: 100px;
+    background-color: #a7d7c5;
+    align-items: start;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-right: -80px;
+    
+    position: relative;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    vertical-align: auto;
+    
+}
+#upperbackground{
+    background-color: #f4f9f4;
+}
+#imageholder{
+    position: relative;
+}
+#girlcircle{
+    position: absolute;
+    left: 135px;
+    top: 136px;
+}
+#yogaclass{
+    position: absolute;
+    right: 216px;
+    top: 360px;
+}
+h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6c9894;
+}
+#yogaclass1{
+    position: absolute;
+    right: 157px;
+    top: 418px;
+    left: 825px;
+    text-align: center;
+    color: #6c9894;
+}
+#buttonjn{
+    background-color: #6c9894;
+    color: white;
+    border: 10px solid #6c9894;
+    border-radius: 40%;
+    margin-top: 10px;
+}
+#secondflower{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
