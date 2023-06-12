@@ -59,6 +59,10 @@ a:hover{
     left: 135px;
     top: 136px;
 }
+#girlcircle:hover{
+    transform: scale(1.2,1.2);
+    transition: all ease-in-out 1s;
+}
 #yogaclass{
     position: absolute;
     right: 216px;
