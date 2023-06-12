@@ -62,7 +62,9 @@ a:hover{
 #yogaclass{
     position: absolute;
     right: 216px;
+    left: 873px;
     top: 360px;
+    text-align: center;
 }
 h1{
     font-size: 40px;
@@ -81,11 +83,25 @@ h1{
     background-color: #6c9894;
     color: white;
     border: 10px solid #6c9894;
-    border-radius: 40%;
+    border-radius: 0%;
     margin-top: 10px;
+}
+#buttonjn:hover{
+    background-color: #369991;
+    color: white;
+    border: 10px solid #369991;
+   
+    margin-top: 10px;
+    transition: all ease-in-out 0.8s;
 }
 #secondflower{
     position: absolute;
     right: 0px;
-    top: 0px;
+    bottom: 0px;
+    opacity: 30%;
+}
+#secondflower:hover{
+    opacity: 80%;
+    transition: all ease-in-out 1s;
+    transform: scale3d(1.2,1.2,0);
 }
